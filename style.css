@@ -1,0 +1,81 @@
+div {
+    
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: dashed;
+    border-width: 5px;
+    border-color: black;
+    border-color: black;
+}
+/*
+header with background grafic
+*/
+
+h1{
+    background-size: auto;
+    background-color: brown;
+    display: inline-block;
+    background-image: url(https://www.foodnavigator-usa.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/article/2019/03/27/merchandising-fresh-produce-shoppers-seek-more-snack-sized-and-local-options/9303073-1-eng-GB/Merchandising-fresh-produce-Shoppers-seek-more-snack-sized-and-local-options.jpg);
+}
+
+
+/*different categories*/
+
+section {
+text-align: center;
+font-weight: bolder;
+font-size: x-large;
+background-color: brown;
+
+}
+
+table {
+border: dashed;
+border-width: 2px;
+display: inline-block;
+
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: center;
+   
+}
+
+p {
+    display: inline-block;
+    background-color: brown;
+    font-style: italic;
+}
+
+
+
+
+/*
+display
+block: take the entire width
+inline takes only what it need
+inline-block: adjustablw width
+
+
+BOX MODEL PROPERTIES
+
+
+em, rem, % vh, vw
+*/
+
+div {
+    font-size: 2em;
+}
+
+p{
+    font-size: 3em;
+}
+
+html {
+    font-size: 15px;
+}
